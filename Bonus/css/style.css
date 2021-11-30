@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 0;
+}
+.box  {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.box .scarpa{
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.scarpa h2{
+    font-size: 3.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Colori delle scritte*/
+.red h2{
+    color: #ff0;
+}
+
+.green h2{
+    color: #ff0;
+}
+
+.yellow h2{
+    color:#008000;
+}
+
+
+
+
+/*Colori delle box*/
+.box.red{
+    background-color: #f00;
+}
+.box.green{
+    background-color: #008000;
+}
+.box.yellow{
+    background-color: #ff0;
+}
