@@ -24,9 +24,12 @@ html {
     left: 51%;
     transform: translate(-50%, -50%);
 }
+.scarpa img{
+    width: 100%;
+}
 
 .scarpa h2{
-    font-size: 3.2em;
+    font-size: 3.5em;
     text-transform: uppercase;
     text-align: center;
 }
